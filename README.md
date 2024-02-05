@@ -30,8 +30,9 @@ notification via SMS through Twilio if rain is forecasted within the next 12 hou
 - main.py: The entry point for the application, orchestrating the weather check and sending notifications if necessary.
 
 ## Running the Application
+This can be added in Python Anywhere for automated alerts or run locally.
 
-In terminal:
+To run locally, navigate to the source directory and in terminal:
 ```bash
-python main.py
+export OWM_API_KEY="your key"; export TWILIO_AUTH_TOKEN="your key"; TWILIO_ACCOUNT_SID="your key"; python3 main.py
 ```
